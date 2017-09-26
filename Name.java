@@ -31,34 +31,37 @@ public class Name {
     }
 
     public String getTitle() {
-        /* return name's title */
+        return title;
     }
 
     public String getFirst() {
-        /* return Name's first name */
+        return first;
     }
 
     public String getMiddle() {
-        /* return Name's middle name */
+        return middle;
     }
 
     public String getSurname() {
-        /* return Name's last name */
+        return surname;
     }
 
     public String getSurnameParent1() {
-        /* return parent1's last name */
+        return surnameParent1;
     }
 
     public String getSurnameParent2() {
         /* return parent2's last name */
+        return surnameParent2;
     }
 
     public String getSuffixProfessional() {
     	/* return Name's professional suffix */
+        return suffixProfessional;
     }
 
     public String getSuffixGenerational() {
+        return suffixGenerational;
         /* return Name's generational suffix */
 }
 }
